@@ -3,7 +3,7 @@
   "build": {
     "builder": "RAILPACK",
     "installCommand": "bun install",
-    "buildCommand": "bun run build"
+    "buildCommand": "bun turbo run build"
   },
   "deploy": {
     "startCommand": "bun run dev:console",
